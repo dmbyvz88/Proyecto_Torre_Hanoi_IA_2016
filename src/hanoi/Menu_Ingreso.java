@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package hanoi;
+import torrehannoi.*;
 /**
  *
  * @author DF-Sistemas
@@ -102,6 +103,7 @@ public class Menu_Ingreso extends javax.swing.JFrame {
 
     private void btn_DemoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_DemoActionPerformed
         String[] args = null;
+        torrehannoi.Demo.main(args);
 //        demo.getClass();
     }//GEN-LAST:event_btn_DemoActionPerformed
 
